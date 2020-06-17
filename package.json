@@ -1,0 +1,29 @@
+{
+    "name": "cryptonote-swap-pool",
+    "version": "1.3.5",
+    "license": "GPL-2.0",
+    "author": "swap-dev",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/swap-dev/cryptonote-swap-pool.git"
+    },
+    "dependencies": {
+        "async": "1",
+        "base58-native": "*",
+        "bignum": "*",
+        "cli-color": "*",
+        "cryptoforknote-util": "git://github.com/MoneroOcean/node-cryptoforknote-util.git",
+        "cryptonight-hashing": "git://github.com/MoneroOcean/node-cryptonight-hashing.git",
+        "dateformat": "*",
+        "mailgun.js": "*",
+        "node-telegram-bot-api": "*",
+        "nodemailer": "2.7.2",
+        "nodemailer-sendmail-transport": "*",
+        "redis": "*",
+        "socket.io": "^2.1.1",
+        "time-ago": "*"
+    },
+    "engines": {
+        "node": ">=4.0"
+    }
+}
