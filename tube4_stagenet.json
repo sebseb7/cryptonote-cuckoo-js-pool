@@ -30,7 +30,7 @@
 		"poolAddress": "SbLqkXhXu4GQvznT35WnDdZ4ZJCM6bbCoKvVp5BTpp42Yk2nqfFg57A5gqmPye9hLe94bnbbTw4h1a85Q2LR6rTR27PUg5uW4",
 		"intAddressPrefix": 9210,
 		"subAddressPrefix": 23578,
-		"blockRefreshInterval": 50,
+		"blockRefreshInterval": 200,
 		"minerTimeout": 900,
 		"ports": [
 			{
@@ -43,7 +43,6 @@
 			"minDiff": 1,
 			"maxDiff": 100000000,
 			"targetTime": 15,
-			"retargetTime": 30,
 			"variancePercent": 30,
 			"maxJump": 100
 		},
@@ -80,7 +79,7 @@
 		"enabled": true,
 		"interval": 900,
 		"maxAddresses": 15,
-		"mixin": 10,
+		"mixin": 2,
 		"priority": 1,
 		"transferFee": 700000000,
 		"dynamicTransferFee": true,
